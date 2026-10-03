@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas>
+  <Texture>images/hero</Texture>
+  <Regions>
+    <!-- STAND ANIMATION -->
+    <Region name="hero" x="0" y="0" width="32" height="32" />
+    <Region name="hero-1" x="32" y="0" width="32" height="32" />
+    <Region name="hero-2" x="64" y="0" width="32" height="32" />
+    <Region name="hero-3" x="96" y="0" width="32" height="32" />
+    <!-- JUMP ANIMATION -->
+    <Region name="hero-jump" x="0" y="160" width="32" height="32" />
+    <Region name="hero-jump-1" x="32" y="160" width="32" height="32" />
+    <Region name="hero-jump-2" x="64" y="160" width="32" height="32" />
+    <Region name="hero-jump-3" x="96" y="160" width="32" height="32" />
+  </Regions>
+  <Animations>
+    <Animation name="hero-stand-animation" delay="200">
+      <!-- STAND ANIMATION -->
+      <Frame region="hero" />
+      <Frame region="hero-1" />
+      <Frame region="hero-2" />
+      <Frame region="hero-3" />
+    </Animation>
+    <!-- JUMP ANIMATION -->
+    <Animation name="hero-jump-animation" delay="200">
+      <Frame region="hero-jump" />
+      <Frame region="hero-jump-1" />
+      <Frame region="hero-jump-2" />
+      <Frame region="hero-jump-3" />
+    </Animation>
+  </Animations>
+</TextureAtlas>
