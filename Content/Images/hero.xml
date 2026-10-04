@@ -7,11 +7,30 @@
     <Region name="hero-1" x="32" y="0" width="32" height="32" />
     <Region name="hero-2" x="64" y="0" width="32" height="32" />
     <Region name="hero-3" x="96" y="0" width="32" height="32" />
+    <!-- WALK ANIMATION -->
+    <Region name="hero-walk" x="0" y="32" width="32" height="32" />
+    <Region name="hero-walk-1" x="32" y="32" width="32" height="32" />
+    <Region name="hero-walk-2" x="64" y="32" width="32" height="32" />
+    <Region name="hero-walk-3" x="96" y="32" width="32" height="32" />
+    <Region name="hero-walk-4" x="128" y="32" width="32" height="32" />
+    <Region name="hero-walk-5" x="160" y="32" width="32" height="32" />
     <!-- JUMP ANIMATION -->
     <Region name="hero-jump" x="0" y="160" width="32" height="32" />
     <Region name="hero-jump-1" x="32" y="160" width="32" height="32" />
     <Region name="hero-jump-2" x="64" y="160" width="32" height="32" />
     <Region name="hero-jump-3" x="96" y="160" width="32" height="32" />
+    <!-- ATTACK ANIMATION -->
+    <Region name="hero-attack" x="0" y="96" width="32" height="32" />
+    <Region name="hero-attack-1" x="32" y="96" width="32" height="32" />
+    <Region name="hero-attack-2" x="64" y="96" width="32" height="32" />
+    <Region name="hero-attack-3" x="128" y="96" width="32" height="32" />
+    <!-- DEATH ANIMATION -->
+    <Region name="hero-death" x="0" y="192" width="32" height="32" />
+    <Region name="hero-death-1" x="32" y="192" width="32" height="32" />
+    <Region name="hero-death-2" x="64" y="192" width="32" height="32" />
+    <Region name="hero-death-3" x="96" y="192" width="32" height="32" />
+    <Region name="hero-death-4" x="128" y="192" width="32" height="32" />
+    <Region name="hero-death-5" x="160" y="192" width="32" height="32" />
   </Regions>
   <Animations>
     <Animation name="hero-stand-animation" delay="200">
@@ -21,12 +40,37 @@
       <Frame region="hero-2" />
       <Frame region="hero-3" />
     </Animation>
+    <!-- WALK ANIMATION -->
+    <Animation name="hero-walk-animation" delay="200">
+      <Frame region="hero-walk" />
+      <Frame region="hero-walk-1" />
+      <Frame region="hero-walk-2" />
+      <Frame region="hero-walk-3" />
+      <Frame region="hero-walk-4" />
+      <Frame region="hero-walk-5" />
+    </Animation>
     <!-- JUMP ANIMATION -->
     <Animation name="hero-jump-animation" delay="200">
       <Frame region="hero-jump" />
       <Frame region="hero-jump-1" />
       <Frame region="hero-jump-2" />
       <Frame region="hero-jump-3" />
+    </Animation>
+    <!-- ATTACK ANIMATION -->
+    <Animation name="hero-attack-animation" delay="100">
+      <Frame region="hero-attack" />
+      <Frame region="hero-attack-1" />
+      <Frame region="hero-attack-2" />
+      <Frame region="hero-attack-3" />
+    </Animation>
+    <!-- DEATH ANIMATION -->
+    <Animation name="hero-death-animation" delay="100">
+      <Frame region="hero-death" />
+      <Frame region="hero-death-1" />
+      <Frame region="hero-death-2" />
+      <Frame region="hero-death-3" />
+      <Frame region="hero-death-4" />
+      <Frame region="hero-death-5" />
     </Animation>
   </Animations>
 </TextureAtlas>
